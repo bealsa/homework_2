@@ -1,5 +1,5 @@
 body {
-  font-family: "Lucinda Grande", serif;
+  font-family: "Lucida Grande", serif;
   background-color: #000000;
   color: #ffffff;
 }
@@ -27,35 +27,31 @@ img {
 }
 
 div {
-  height: 150px;
+  height: auto 150px;
   padding: 25px 25px 25px 25px;
 }
 
-#red {
-  height: 150px;
+div#red {
   background-color: #ff0000;
   text-align: right;
 }
 
-#blue {
-  height: 150px;
+div#blue {
   background-color: #0000ff;
   text-align: left;
 }
 
-#yellow {
-  height: 150px;
+div#yellow {
   background-color: #ffff00;
   text-align: right;
   color: #000000;
 }
 
-#yellow h2{
+div#yellow h2{
   text-shadow: 5px 5px 2px #c7e2c7;
 }
 
-#green {
-  height: 150px;
+div#green {
   background-color: #008000;
   text-align: left;
 }
